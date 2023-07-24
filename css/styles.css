@@ -549,6 +549,7 @@ a.link-active::after {
 .portfolio-wrapper-photo {
     position: relative;
     overflow: hidden;
+    
 }
 
 .portfolio-p-in-photo {
@@ -574,11 +575,11 @@ a.link-active::after {
 
 
 .portfolio-wrapper-photo:hover .portfolio-p-in-photo{
-    transform: translateY(0);
+    transform: translateY(0%);
 }
 
-.portfolio-wrapper-photo:focus .portfolio-p-in-photo {
-    transform: translateY(0);
+.link-photo:focus .portfolio-p-in-photo {
+    transform: translateY(0%);
 }
 
 .portfolio-li-htwo {
