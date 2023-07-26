@@ -854,7 +854,7 @@ a.link-active::after {
 .wraper-label:nth-child(4) {
     margin-bottom: 16px;
 }
-.wraper-label:last-child {
+.wraper-label:nth-child(5) {
     margin-bottom: 24px;
 }
 
@@ -959,6 +959,7 @@ a.link-active::after {
 .form-input-checkbox:checked + label .span-wrapper-svg {
     background-color: #404BBF;
     border: none;
+    fill: #F4F4FD;
 }
 .form-input-checkbox:checked + label .span-wrapper-svg .modal-checkbox-svg use {
     display: block;
