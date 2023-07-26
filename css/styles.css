@@ -727,7 +727,7 @@ a.link-active::after {
     color: var(--white-color);
     font-size: 12px;
     font-weight: 400;
-    line-height: 1.5px;
+    line-height: 1.5;
     /* 200% */
     letter-spacing: 0.04em;
 }
@@ -737,12 +737,12 @@ a.link-active::after {
 }
 
 .subscribe-wrapper {
-    position: relative;
+    /* position: relative; */
     display: flex;
+    gap: 24px;
 }
 
 .footer-label {
-    gap 24px;
 }
 
 .footer-but {
@@ -802,6 +802,7 @@ a.link-active::after {
 }
 
 .modal-window {
+    position: relative;
     padding: 72px 24px 24px 24px;
 
     width: 408px;
@@ -845,7 +846,6 @@ a.link-active::after {
 }
 
 .modal-form {
-    padding: 72px 24px;
 }
 
 .wraper-label {
@@ -880,7 +880,7 @@ a.link-active::after {
     /* Small Text */
     font-size: 12px;
     font-weight: 400;
-    line-height: 1.17px;
+    line-height: 1.17;
     letter-spacing: 0.04em;
 }
 
